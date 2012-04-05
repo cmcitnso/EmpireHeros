@@ -5,7 +5,9 @@ primary: true
 secondary: false
 description: Citizen of Nobebe, are you up to the challenge
 permitted-armor:
+Leather
 permitted-weapon:
+Wood
 permitted-skills:
 experience-sources:
 - KILLING
