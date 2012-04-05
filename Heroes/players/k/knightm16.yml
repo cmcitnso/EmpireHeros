@@ -1,0 +1,11 @@
+class: Admin
+verbose: true
+suppressed: []
+mana: 100
+health: 20.0
+skill-settings: {}
+cooldowns: {}
+experience:
+  Citizen: 0.0
+  Admin: 0.0
+binds: {}

@@ -1,0 +1,27 @@
+name: Ranger
+default: false
+wildcard-permission: true
+primary: true
+secondary: false
+description: Rangers are ranged fighters of the woods.  
+permitted-armor:  [ Leather ]
+permitted-weapon: [ WOOD_SWORD, BOW ]
+permitted-skills:
+  ALL: true
+experience-sources:
+- KILLING
+- QUESTING
+permission-skills:
+base-max-health: 20
+max-health-per-level: 0.1
+expmodifier: 1.0
+item-damage:
+  air: 1
+projectile-damage:
+  Arrow: 3
+expLoss: 0
+tier: 0
+recipes: [ archery ]
+parents:
+    strong: [ citizen ]
+    weak: [ ]

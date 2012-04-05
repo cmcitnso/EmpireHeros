@@ -1,0 +1,54 @@
+name: Bard
+default: false
+wildcard-permission: true
+parents:
+    strong: [citizen]
+    weak: [ ]
+primary: true
+secondary: false
+description: The humble bard, bringer of good songs and lore.
+permitted-armor: [ LEATHER ]
+permitted-weapon: [FISHING_ROD, WOOD_HOE, WOOD_AXE]
+permitted-skills:
+    SummonFood:
+        level: 1
+        mana: 5
+        cooldown: 60
+    Mark:
+        level: 1
+        mana: 5
+        cooldown: 10
+    Recall:
+        level: 1
+        mana: 20
+        cooldown: 200
+    Confuse:
+        level: 5
+        mana: 10
+        cooldown: 10
+    Wisdom:
+        level: 10
+        mana: 20
+        cooldown: 60
+    Slow:
+        level: 20
+        mana: 20
+        cooldown: 30
+    Smite:
+        level: 30
+        mana: 30
+        cooldown: 45
+experience-sources:
+- KILLING
+- QUESTING
+permission-skills:
+base-max-health: 20
+max-health-per-level: 0.1
+expmodifier: 1.0
+item-damage:
+  air: 1
+projectile-damage:
+  Arrow: 3
+expLoss: 0
+tier: 0
+recipes: [ default ]

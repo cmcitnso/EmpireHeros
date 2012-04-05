@@ -1,0 +1,33 @@
+name: Citizen
+default: true
+wildcard-permission: false
+primary: true
+secondary: false
+description: Citizen of Nobebe, are you up to the challenge
+permitted-armor:
+permitted-weapon: [WOOD_AXE, WOOD_SWORD, WOOD_PICKAXE]
+permitted-skills:
+    Mark:
+        level: 5
+        mana: 5
+    Recall:
+        level: 5
+        mana: 40
+        cooldown: 60000
+        health-cost: 10
+        delay: 5000
+experience-sources:
+- KILLING
+- QUESTING
+permission-skills:
+base-max-health: 20
+max-health-per-level: 0.1
+expmodifier: 1.0
+item-damage:
+  air: 1
+projectile-damage:
+  Arrow: 3
+expLoss: 0
+tier: 0
+recipes: [ citizen ]
+max-level: 10

@@ -1,0 +1,63 @@
+name: Rogue
+default: false
+parents:
+    strong: [ citizen ]
+    weak: []
+primary: true
+secondary: false
+description: The trickster of the wilds.
+permitted-armor: 
+- LEATHER
+permitted-weapon:
+- WOOD
+- STONE
+- IRON_PICKAXE
+- IRON_SWORD
+- BOW
+permitted-skills:
+    Port:
+        level: 1
+    Sneak:
+        level: 1
+    Jump:
+        level 20
+    Mark:
+        level: 5
+        mana: 5
+        reagent: BED
+        reagent-cost: 1
+    Recall:
+        level: 5
+        mana: 40
+        cooldown: 60000
+        health-cost: 10
+        delay: 5000
+    EscapeArtist:
+        level: 25
+        mana: 30
+    Smoke:
+        level: 15
+        duration: 30000
+        mana: 10
+        cooldown: 20000
+    Curse:
+        level: 35
+        max-distance: 15
+        duration: 15000
+        miss-chance: 0.5
+        cooldown: 25000
+        mana: 10
+experience-sources:
+- KILLING
+- PVP
+- QUESTING
+- EXTERNAL
+projectile-damage:
+  Arrow: 9
+expmodifier: 1.0
+base-max-health: 28.0
+max-health-per-level: 0.4
+expLoss: 0.007
+wildcard-permission: true
+tier: 1
+recipes: [ default ]

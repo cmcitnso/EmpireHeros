@@ -1,0 +1,53 @@
+name: Barbarian
+default: false
+wildcard-permission: true
+parents:
+  strong: [citizen]
+  weak: [ ]
+primary: true
+secondary: false
+description: Barbarians are swift and strong fighters on the battle field preferring to run into the heat of a fight over standing back.
+permitted-armor: [ LEATHER ]
+permitted-weapon: [ WOOD_AXE STONE_AXE, IRON_AXE ]
+item-damage:
+  STONE_AXE: 10,
+  STONE_SWORD: 5,
+  IRON_AXE: 20,
+permitted-skills:
+    One: 
+        level: 1
+        mana: 5
+        cooldown: 10
+    Piggify:
+        level: 10
+        mana: 5
+        cooldown: 15
+    Blink:
+        level: 20
+        mana: 15
+        cooldown: 90
+    Charge:
+        level: 30
+        mana: 20
+        cooldown: 20
+    HarmTouch:
+        level: 40
+        mana: 20
+        cooldown: 30
+experience-sources:
+- KILLING
+- QUESTING
+- PVP
+- EXTERNAL
+permission-skills:
+base-max-health: 20
+max-health-per-level: 0.1
+expmodifier: 1.0
+item-damage:
+  air: 1
+projectile-damage:
+  Arrow: 3
+expLoss: 0
+tier: 0
+recipes: [ default ]
+max-level: 35

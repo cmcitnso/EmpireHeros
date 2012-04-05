@@ -1,0 +1,17 @@
+class: Citizen
+verbose: true
+suppressed: []
+mana: 100
+health: 6.600000000000001
+skill-settings:
+  recall:
+    world: aachen
+    x: -50.59225514098296
+    y: 76.0
+    z: 284.0052686505943
+    yaw: 85.41583251953125
+    pitch: 7.199980735778809
+cooldowns: {}
+experience:
+  Citizen: 1499.0
+binds: {}
