@@ -5,6 +5,10 @@ primary: true
 secondary: false
 description: We are adminfalse beware
 permitted-armor:
+- Leather
+- Iron
+- Gold
+- Diamond
 permitted-weapon:
 - FISHING_ROD
 - SHEARS
@@ -12,10 +16,15 @@ permitted-weapon:
 - IRON
 - WOOD
 - GOLD
+- Diamond
 permitted-skills:
 experience-sources:
+- Mining
 - KILLING
 - QUESTING
+- Fishing
+- Logging
+- Pvpin
 permission-skills:
 base-max-health: 20
 max-health-per-level: 0.1
@@ -23,7 +32,7 @@ expmodifier: 1.0
 item-damage:
   air: 1
 projectile-damage:
-  Arrow: 3
+  Arrow: 5
 expLoss: 0
 tier: 0
 recipes: [ citizen ]
