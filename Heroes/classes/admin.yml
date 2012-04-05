@@ -5,10 +5,10 @@ primary: true
 secondary: false
 description: We are adminfalse beware
 permitted-armor:
-- Leather
-- Iron
-- Gold
-- Diamond
+- LEATHER
+- IRON
+- GOLD
+- DIAMOND
 permitted-weapon:
 - FISHING_ROD
 - SHEARS
@@ -16,15 +16,15 @@ permitted-weapon:
 - IRON
 - WOOD
 - GOLD
-- Diamond
+- DIAMOND
 permitted-skills:
 experience-sources:
 - Mining
 - KILLING
 - QUESTING
-- Fishing
-- Logging
-- Pvpin
+- FISHING
+- LOGGING
+- PVPING
 permission-skills:
 base-max-health: 20
 max-health-per-level: 0.1
